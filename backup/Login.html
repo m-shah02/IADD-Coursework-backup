@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images\AstonLogoTriangle.png" />
+    <link rel="stylesheet" href="/Login.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <title>Aston Events - Login</title>
+  </head>
+  <body>
+    <!--The logo-->
+    <img src="Images\AstonLogo.svg" alt="Aston Logo" />
+
+    <!--The navbar-->
+    <div class="topnav">
+      <a href="Index.html">Home</a>
+      <a href="Events.html">Events</a>
+      <a href="Login.html">Login</a>
+      <a href="Register.html">Register</a>
+    </div>
+
+    <!--This is for the main contents of the page-->
+    <div class="container">
+      <div class="header">
+        <h2>Login</h2>
+      </div>
+      <!--This is the point where you can input the information in to login-->
+      <form id="form" class="form">
+        <!--The email field-->
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input type="email" placeholder="email@aston.ac.uk" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <!--The password field-->
+        <div class="form-control">
+          <label for="username">Password</label>
+          <input type="password" placeholder="Password" id="password" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+
+        <!--Button to submit the information-->
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="Register.js"></script>
+  </body>
+</html>
